@@ -30,14 +30,14 @@ md5sums=('787862593d7bf354cf1a5c37e21fc147'
          'e0221ea0e6eeb147c29d2fd72e987ed5'
          '7b08a199a97e3e2288e5c03d8e8ded2d'
          'c9d4e392555b77034e24e9f87c5ff0b3'
-         'f1379ae267804a7820963dd0527f11a8'
+         '46138c2fa0eccf5d66f5271ef71006df'
          '7c97cf141750ad810235b1ad06eb9f75'
          '61c5ff73c136ed07a7aadbf58db3d96a'
          '584777ae88bce2c5659960151b64c7d8'
          '41cb5fef62715ead2dd109dbea8413d6'
          '0a5f16bfec6ad982a2f6782724cca8ba'
          '3dc88030a8f2f5a5f97266d99b149f77'
-         '24efcc6074f97cae2199210c86391d15')
+         'a56346a00aca0b12546da020478ee908')
 
 prepare() {
   cd $_srcname
