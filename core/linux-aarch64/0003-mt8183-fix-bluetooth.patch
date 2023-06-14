@@ -1,5 +1,7 @@
-this reverts drivers/tty/serial/8250/8250_mtk.c back to the v5.17 version
-as otherwise it breaks bluetooth on mt8183 kukui devices
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: aneeshlingala <aneeshlingala61@gmail.com>
+Date: Wed, 14 June 2023 3:47:12 -0700
+Subject: Fix bluetooth on MT8183 Kukui devices by reverting to the 5.17 MTK bluetooth driver.
 
 diff --git a/drivers/tty/serial/8250/8250_mtk.c b/drivers/tty/serial/8250/8250_mtk.c
 index 54051ec7b499..fb65dc601b23 100644
